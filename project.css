@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color:  #ffffff;
+    line-height: 1.6;
+    background-image: url('background.jpg');
+}
+/* Header Styling */
+header {
+    background: linear-gradient(45deg, #eabc85, #ed4443); /* Gradien linear */
+    color: #f7f7f7;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative; /* Untuk mengatur posisi elemen di dalam header */
+}
+
+header .avatar {
+    width: 80px; /* Ukuran avatar lebih kecil untuk header */
+    height: 80px;
+    border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    border: 2px solid #2b69e5d2; /* Menambahkan border untuk estetika */
+    position: absolute; /* Posisi absolut untuk menempatkan avatar */
+    top: 10px; /* Jarak dari atas header */
+    left: 10px; /* Jarak dari kiri header */
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}   
+
+header .logo span {
+    color: #fdff7ad4;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+header a:hover {
+    color: #85f2d0d9;
+}
+/* Dua kotak foto dengan gradient */
+.photo-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.photo-box {
+    background: linear-gradient(135deg, #eb121a 40%, #faeb18 100%);
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;         /* Diperbesar dari 220px */
+}
+
+.photo-box img {
+    width: 245px;           /* Lebar tetap */
+    height: 350px;          /* Tinggi lebih besar untuk rasio 9:16 */
+    object-fit: cover;      /* Foto tetap proporsional dan terpotong rapi */
+    border-radius: 16px;
+    margin-bottom: 1rem;
+    border: 3px solid #1f2500;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}

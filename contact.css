@@ -1,0 +1,101 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #000000;
+    line-height: 1.6;
+    background-image: url('Bg1.jpg');
+}
+/* Header Styling */
+header {
+    background: linear-gradient(45deg, #f3cb51, #f0d27f); /* Gradien linear */
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative; /* Untuk mengatur posisi elemen di dalam header */
+}
+
+header .avatar {
+    width: 80px; /* Ukuran avatar lebih kecil untuk header */
+    height: 80px;
+    border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    border: 2px solid #defb7dd2; /* Menambahkan border untuk estetika */
+    position: absolute; /* Posisi absolut untuk menempatkan avatar */
+    top: 10px; /* Jarak dari atas header */
+    left: 10px; /* Jarak dari kiri header */
+}header .avatar {
+    width: 80px; /* Ukuran avatar lebih kecil untuk header */
+    height: 80px;
+    border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    border: 2px solid #2b69e5d2; /* Menambahkan border untuk estetika */
+    position: absolute; /* Posisi absolut untuk menempatkan avatar */
+    top: 10px; /* Jarak dari atas header */
+    left: 10px; /* Jarak dari kiri header */
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #000000;
+}
+
+header nav {
+    margin-top: 1rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+
+header nav a:hover {
+    color: #000000b0;
+}
+
+/* Contact Section Box */
+section.contact {
+    background: linear-gradient(135deg, #23243a  60%, #25274d 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    padding: 2rem 2.5rem;
+    margin: 2rem auto;
+    max-width: 500px;
+    color: #daf2c6;
+    border: 1px solid #31325a;
+}
+
+section.contact h2 {
+    color: #e7d083;
+    margin-bottom: 1rem;
+}
+
+section.contact p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+section.contact img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.7rem;
+    vertical-align: middle;
+    filter: brightness(0.95) contrast(1.2);
+}
